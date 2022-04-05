@@ -326,12 +326,12 @@ for(let i=0; i<10; i++){
 // the function way
 function foo() {}
 // the arrow function way
-()=>{};
+foo()=>{};
 ```
 
 ### Iteration Methods
 
-- Iteration methods work on **\*\***\_\_\_\_**\*\*** only!
+- Iteration methods work on **arrays** only!
 - All iteration methods go over evrey single element of the array
 - Iteration methods take a function that has a parameter of the current value of the array. Preferred to use arrow function inside it.
 
